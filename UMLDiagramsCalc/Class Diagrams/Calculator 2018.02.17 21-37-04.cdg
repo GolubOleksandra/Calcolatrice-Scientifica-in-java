@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Calculator">
+  <ClassDiagramComponents>
+    <Class name="Calculator" package="calculator" visibility="public" xPosition="121.0" yPosition="45.0">
+      <Fields>
+        <Field name="larghezza" type="int" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="altezza" type="int" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="tfield" type="JTextField" visibility="package"/>
+        <Field name="temp" type="double" visibility="package"/>
+        <Field name="m1" type="double" visibility="package" isStatic="true"/>
+        <Field name="k" type="int" visibility="package"/>
+        <Field name="ch" type="char" visibility="package"/>
+        <Field name="b1" type="JButton" visibility="package"/>
+        <Field name="cont" type="Container" visibility="package"/>
+        <Field name="textPanel" type="JPanel" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="e"/>
+        </Method>
+        <Method name="fatt" returnType="double" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
